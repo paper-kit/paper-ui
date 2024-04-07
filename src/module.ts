@@ -73,6 +73,7 @@ export default defineNuxtModule<ModuleOptions>({
               other: {
                 notification: "#E05757",
                 figma: "#9747FF",
+                black: "#1B1B1B",
               },
             },
           },
@@ -86,5 +87,9 @@ export default defineNuxtModule<ModuleOptions>({
       name: "TestComp",
       filePath: resolve("./runtime/components/TestComp.vue"),
     });
+    addComponent({
+      name: "BaseButton",
+      filePath: resolve("./runtime/components/base/Button.vue"),
+    },);
   },
 });
