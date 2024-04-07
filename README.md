@@ -6,6 +6,9 @@ Find and replace all on all files (CMD+SHIFT+F):
 - Package name: my-module
 - Description: My new Nuxt module
 -->
+![image](https://github.com/paper-kit/paper-ui/assets/85635331/52aa3cbd-4890-41c4-acf8-2d21c15d7f72)
+
+
 
 # Paper Ui Module
 
