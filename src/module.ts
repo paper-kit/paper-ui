@@ -83,8 +83,8 @@ export default defineNuxtModule<ModuleOptions>({
     // Do not add the extension since the `.ts` will be transpiled to `.mjs` after `npm run prepack`
     addPlugin(resolve("./runtime/plugin"));
     addComponent({
-      name: "Teste",
-      filePath: resolve("./runtime/components/Teste.vue"),
+      name: "TestComp",
+      filePath: resolve("./runtime/components/TestComp.vue"),
     });
   },
 });
