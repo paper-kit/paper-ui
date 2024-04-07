@@ -1,6 +1,8 @@
 <template>
-  <div>
-    testando
+  <div class="w-screen h-screen flex justify-center items-center">
+    <TestComp>
+      testandooo
+    </TestComp>
   </div>
 </template>
 
