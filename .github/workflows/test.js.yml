@@ -25,5 +25,8 @@ jobs:
     - name: Install & Test 🔧
       run: |
         npm install
+        npm run prepack
+        npm run dev:build
+        npm run dev:prepare
         npm run lint
         npm run test
