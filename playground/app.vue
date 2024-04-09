@@ -1,8 +1,8 @@
 <template>
   <div class="w-screen h-screen flex justify-center items-center">
-    <TestComp>
-      testandooo
-    </TestComp>
+    <BaseButton color="red">
+      Meu ovo
+    </BaseButton>
   </div>
 </template>
 

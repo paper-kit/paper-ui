@@ -49,6 +49,7 @@ export default <Partial<Config>>{
         'other': {
           'notification': "#E05757",
           'figma': "#9747FF",
+          'black': '#1B1B1B'
         },
       }
     },
