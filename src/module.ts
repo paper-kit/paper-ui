@@ -90,6 +90,10 @@ export default defineNuxtModule<ModuleOptions>({
     addComponent({
       name: "BaseButton",
       filePath: resolve("./runtime/components/base/Button.vue"),
-    },);
+    });
+    addComponent({
+      name: "BaseButtonGroup",
+      filePath: resolve("./runtime/components/base/ButtonGroup.vue"),
+    });
   },
 });
